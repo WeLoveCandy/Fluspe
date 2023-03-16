@@ -5256,10 +5256,9 @@ end
 repeat wait() until game:IsLoaded()
 
 -- Window --
-Date = os.date("%d".." ".."%B".." ".."%Y")
 local window =
     library:new(
-    {textsize = 13.5, font = Enum.Font.RobotoMono, name = "Fluspe hub |"..date, color = Color3.fromRGB(3, 82, 255)}
+    {textsize = 13.5, font = Enum.Font.RobotoMono, name = "Fluspe hub", color = Color3.fromRGB(3, 82, 255)}
 )
 
 -- Auto farm --
