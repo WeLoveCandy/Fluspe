@@ -5335,9 +5335,9 @@ GeneralL:toggle(
         def = true,
         callback = function(vu)
             if vu == true then
-                _G.Autofarm = vu
+                _G.Autofarm = true
             else
-                _G.Autofarm = vu
+                _G.Autofarm = false
             end
         end
     }
