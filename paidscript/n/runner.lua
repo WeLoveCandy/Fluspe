@@ -5333,12 +5333,12 @@ local GeneralR = General:section({name = "Settings",side = "left",size = 300})
 GeneralL:toggle(
     {
         name = "Automatic farm",
-        def = false,
+        def = true,
         callback = function(vu)
             if vu == true then
-                _G.Autofarm = true
+                _G.Autofarm = vu
             else
-                _G.Autofarm = false
+                _G.Autofarm = vu
             end
         end
     }
